@@ -1,0 +1,8 @@
+.merchandise {
+    padding: 5rem 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 5rem;
+    justify-content: center;
+    grid-column-gap: 5rem;
+}
