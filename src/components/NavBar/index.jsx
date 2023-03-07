@@ -12,10 +12,10 @@ export const NavBar = () => {
             </div>
             <ul className='nav_list'>
                 <li>
-                    <NavLink className='nav_link' >Categoria 1</NavLink>
+                    <NavLink className='nav_link' to='/category/dojo' >Todo para tu Dojo</NavLink>
                 </li>
                 <li>
-                    <NavLink className='nav_link' >Categoria 2</NavLink>
+                    <NavLink className='nav_link' to='/category/kendo' >Kendo</NavLink>
                 </li>
                 <li>
                     <NavLink className='nav_link' to='cart' >
