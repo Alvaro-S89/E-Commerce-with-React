@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import ItemCount from '../ItemCount'
 import ItemList from '../ItemList'
 import Title from '../Title'
 
@@ -26,15 +25,9 @@ fetchData()
 
 },[categoryId])
 
-
-  const onAdd = (quantity) => {
-    console.log(quantity)
-  }
-
   return (
     <>
     <Title greeting={props.text} />
-    <ItemCount initial={1} stock={5} onAdd={onAdd}/>
     <ItemList data={data} />
     </>
   )

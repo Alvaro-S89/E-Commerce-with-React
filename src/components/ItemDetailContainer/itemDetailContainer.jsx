@@ -1,36 +1,36 @@
-// import React, {useState, useEffect} from 'react'
-// import { ItemDetail } from '../ItemDetail/ItemDetail'
-// import { useParams } from 'react-router-dom'
+import React, {useState, useEffect} from 'react'
+import { useParams } from 'react-router-dom'
+import ItemDetail from '../ItemDetail/itemDetail';
 
 
 
-// export const ItemDetailContainer = () => {
+export const ItemDetailContainer = () => {
 
-//   const url = "http://localhost:3000/products";
-//   const [products, setProducts] = useState({})
-//   const {detalleId} = useParams()
+  const [data, setData] = useState([])
 
-//   useEffect(() => {
-//     const fetchProducts = async () => {
-//         const response = await fetch(url);
-//         const json = await response.json()
+  const {detailsId} = useParams()
+  
+  useEffect(() => {
+  const fetchData = async ()=> {
+    const data = await fetch("http://localhost:3004/products")
+    const json = await data.json()
+    if (detailsId) {
+    const jsonFiltered = json.find(product => product.id === parseInt(detailsId));
+    setData(jsonFiltered)
+  } else {
+    setData(json)
+  }
+  };
+  fetchData()
+  
+  },[detailsId])
 
-//         if(detalleId){
-//             const filteredProducts = json.filter(products => products.detalleId === parseInt(detalleId));
-//             setProducts(filteredProducts)
-//         }else{
-//             setProducts(json)
-//         }
-//     }
-//     fetchProducts();
-// }, [detalleId])
 
+  return (
+    <div>
+      <ItemDetail data={data}/> 
+    </div>
+  )
+}
 
-//   return (
-//     <div>
-//       <ItemDetail data={products}/> 
-//     </div>
-//   )
-// }
-
-// export default ItemDetailContainer;
+export default ItemDetailContainer;
