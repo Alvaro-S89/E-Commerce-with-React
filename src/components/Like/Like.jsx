@@ -1,5 +1,5 @@
 import React from 'react'
-import "./like.css"
+import "./Like.css"
 
 const Like = () => {
   return (

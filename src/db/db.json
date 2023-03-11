@@ -1,0 +1,172 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "kendo",
+      "productName": "Men (Black)",
+      "desc": "Head protection to practice kendo",
+      "price": 50,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/BlackMen_y5iotf.jpg"
+    },
+    {
+      "id": 2,
+      "category": "kendo",
+      "productName": "Do",
+      "desc": "Protection for the chest to practice kendo",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375796/Ikigai/Do_zm9tr3.jpg"
+    },
+    {
+      "id": 3,
+      "category": "kendo",
+      "productName": "Kote",
+      "desc": "Protection for wrists and forearms to practice kendo",
+      "price": 60,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375796/Ikigai/Kote_pftyut.jpg"
+    },
+    {
+      "id": 4,
+      "category": "kendo",
+      "productName": "Tare",
+      "desc": "Waist protection to practice kendo and add accessories",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Tare2_zd0zap.jpg"
+    },
+    {
+      "id": 5,
+      "category": "kendo",
+      "productName": "Tare",
+      "desc": "Waist protection to practice kendo and add accessories",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Tare1_ui42cu.jpg"
+    },
+    {
+      "id": 6,
+      "category": "kendo",
+      "productName": "Bogu",
+      "desc": "Complete equipment to practice Kendo",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375796/Ikigai/Bogu1_hoyert.jpg"
+    },
+    {
+      "id": 7,
+      "category": "kendo",
+      "productName": "Shinai bamboo 1ud",
+      "desc": "Bamboo shinai for kendo practice",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Shinai1ud_gbsiao.jpg"
+    },
+    {
+      "id": 8,
+      "category": "kendo",
+      "productName": "SALES Shinai bamboo 2uds",
+      "desc": "Offer. Two bamboo Shinai to practice kendo",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Shinai2uds_mnws1h.jpg"
+    },
+    {
+      "id": 9,
+      "category": "kendo",
+      "productName": "Shinai (wood light)",
+      "desc": "Light colored wooden sword",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Shinai_WL_ffqh1b.jpg"
+    },
+    {
+      "id": 10,
+      "category": "kendo",
+      "productName": "Shinai (wood dark)",
+      "desc": "Dark colored wooden sword",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Shinai_WD_pbbc02.jpg"
+    },
+    {
+      "id": 11,
+      "category": "kendo",
+      "productName": "Shinai Handles",
+      "desc": "Custom handles for shinai",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375796/Ikigai/Handle_kohz5d.jpg"
+    },
+    {
+      "id": 12,
+      "category": "kendo",
+      "productName": "Holder",
+      "desc": "Support to hold shinais",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375796/Ikigai/Holder_j0koon.jpg"
+    },
+    {
+      "id": 13,
+      "category": "dojo",
+      "productName": "ejemplo2",
+      "desc": "ejemplo2 ejemplo2 ejemplo2",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/BlackMen_y5iotf.jpg"
+    },
+    {
+      "id": 14,
+      "category": "dojo",
+      "productName": "ejemplo2",
+      "desc": "ejemplo2 ejemplo2 ejemplo2",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/BlackMen_y5iotf.jpg"
+    },
+    {
+      "id": 15,
+      "category": "dojo",
+      "productName": "ejemplo2",
+      "desc": "ejemplo2 ejemplo2 ejemplo2",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Shinai_WD_pbbc02.jpg"
+    },
+    {
+      "id": 16,
+      "category": "dojo",
+      "productName": "ejemplo2",
+      "desc": "ejemplo2 ejemplo2 ejemplo2",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Shinai_WD_pbbc02.jpg"
+    },
+    {
+      "id": 17,
+      "category": "dojo",
+      "productName": "ejemplo2",
+      "desc": "ejemplo2 ejemplo2 ejemplo2",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Shinai_WD_pbbc02.jpg"
+    },
+    {
+      "id": 18,
+      "category": "dojo",
+      "productName": "ejemplo2",
+      "desc": "ejemplo2 ejemplo2 ejemplo2",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Shinai_WD_pbbc02.jpg"
+    },
+    {
+      "id": 19,
+      "category": "karate",
+      "productName": "ejemplo2",
+      "desc": "ejemplo2 ejemplo2 ejemplo2",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Shinai_WD_pbbc02.jpg"
+    },
+    {
+      "id": 20,
+      "category": "judo",
+      "productName": "ejemplo2",
+      "desc": "ejemplo2 ejemplo2 ejemplo2",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Shinai_WD_pbbc02.jpg"
+    },
+    {
+      "id": 21,
+      "category": "judo",
+      "productName": "ejemplo2",
+      "desc": "ejemplo2 ejemplo2 ejemplo2",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Shinai_WD_pbbc02.jpg"
+    }
+  ]
+}

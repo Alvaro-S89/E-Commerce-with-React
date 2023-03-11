@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import ItemList from '../ItemList'
-import Title from '../Title'
+import ItemList from '../ItemList/ItemList'
+// import Title from '../Title/Title'
 
 
 const ItemListContainer = (props) => {
@@ -27,7 +27,7 @@ fetchData()
 
   return (
     <>
-    <Title greeting={props.text} />
+    {/* <Title greeting={props.text} /> */}
     <ItemList data={data} />
     </>
   )

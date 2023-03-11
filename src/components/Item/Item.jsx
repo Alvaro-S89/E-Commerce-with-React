@@ -1,8 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import CartWidget from '../CartWidget'
-import Like from '../Like'
-import "./item.css"
+import CartWidget from '../CartWidget/CartWidget'
+import Like from '../Like/Like'
+import "./Item.css"
 
 const Item = ({data}) => {
 
@@ -14,7 +14,7 @@ const Item = ({data}) => {
         </div>
         <NavLink to={`/details/${data.id}`}>
         <div className='cardImage'>
-            img
+            <img src={data.url} alt="" />
         </div>
         </NavLink>
         <div className='cardFooter'>

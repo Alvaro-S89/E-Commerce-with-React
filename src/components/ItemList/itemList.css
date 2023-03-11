@@ -1,3 +1,9 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
 .merchandise {
     padding: 5rem 0;
     display: grid;
@@ -5,4 +11,14 @@
     grid-row-gap: 5rem;
     justify-content: center;
     grid-column-gap: 5rem;
+    background-color: #bc002d;
 }
+
+/* .ItemList {
+    padding: 5rem 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 5rem;
+    justify-content: center;
+    grid-column-gap: 5rem;
+} */

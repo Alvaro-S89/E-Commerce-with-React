@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useCartContext } from '../../context/CartContext';
-import ItemCount from '../ItemCount'
+import ItemCount from '../ItemCount/ItemCount'
+import './ItemDetail.css'
 
 
 const ItemDetail = ({data}) => {
@@ -15,6 +16,9 @@ const ItemDetail = ({data}) => {
 
   return (
     <div className='productsContainer'>
+      <div className='imgDetail'>
+        <img src={data.url} alt="" />
+      </div>
       <p>Detalles del producto</p>
       {
         goToCart 
