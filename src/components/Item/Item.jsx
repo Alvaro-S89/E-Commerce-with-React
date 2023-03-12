@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import CartWidget from '../CartWidget/CartWidget'
+// import CartWidget from '../CartWidget/CartWidget'
 import Like from '../Like/Like'
 import "./Item.css"
 
@@ -10,7 +10,7 @@ const Item = ({data}) => {
     <div className='productCard'>
         <div className='cardHeader'>
             <p>{data.productName}</p>
-            <p>{data.price}</p>
+            <Like />
         </div>
         <NavLink to={`/details/${data.id}`}>
         <div className='cardImage'>
@@ -18,8 +18,9 @@ const Item = ({data}) => {
         </div>
         </NavLink>
         <div className='cardFooter'>
-            <Like />
-            <CartWidget />
+          <p>view details</p>
+          <p>{data.price}€</p>
+            {/* <CartWidget /> */}
         </div>
     </div>
   )

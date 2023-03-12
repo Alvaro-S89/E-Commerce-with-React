@@ -1,4 +1,4 @@
-.itemCart {
+/* .itemCart {
     display: flex;
     border-bottom: 1px solid black;
     max-width: 500px;
@@ -8,4 +8,11 @@
 .itemCart img {
     width: 200px;
     margin-right: 1rem;
-}
+} */
+
+.imgCart {
+    width: 15rem;
+    height: 15rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+ }

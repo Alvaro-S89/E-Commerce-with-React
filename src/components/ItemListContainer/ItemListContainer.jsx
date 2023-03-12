@@ -4,7 +4,7 @@ import ItemList from '../ItemList/ItemList'
 // import Title from '../Title/Title'
 
 
-const ItemListContainer = (props) => {
+const ItemListContainer = () => {
 
 const [data, setData] = useState([])
 

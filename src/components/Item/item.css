@@ -2,13 +2,22 @@
     /* display: flex; */
     width: 300px;
     height: 400px;
-    background-color: #25130d;
+    background-color: #181818;
+    font-size: 1.1em;
+    font-weight: bold;
 }
 
 .cardHeader {
     display: flex;
     justify-content: space-around;
-    background-color: red;
+    align-items: center;
+    background-color: #181818;
+    color:#FFFFFF;
+}
+
+.cardHeader p {
+    font-size: 1.2em;
+    /* text-transform: uppercase; */
 }
 
 /* .cardHeader p {
@@ -32,7 +41,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: aqua;
+    background-color: #181818;
+    color: #FFFFFF;
     height: 50px;
 }
 

@@ -59,7 +59,7 @@
     {
       "id": 8,
       "category": "kendo",
-      "productName": "SALES Shinai bamboo 2uds",
+      "productName": "Shinai bamboo 2uds",
       "desc": "Offer. Two bamboo Shinai to practice kendo",
       "price": 40,
       "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Shinai2uds_mnws1h.jpg"
@@ -162,6 +162,70 @@
     },
     {
       "id": 21,
+      "category": "judo",
+      "productName": "ejemplo2",
+      "desc": "ejemplo2 ejemplo2 ejemplo2",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Shinai_WD_pbbc02.jpg"
+    },
+    {
+      "id": 22,
+      "category": "karate",
+      "productName": "ejemplo2",
+      "desc": "ejemplo2 ejemplo2 ejemplo2",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Shinai_WD_pbbc02.jpg"
+    },
+    {
+      "id": 23,
+      "category": "karate",
+      "productName": "ejemplo2",
+      "desc": "ejemplo2 ejemplo2 ejemplo2",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Shinai_WD_pbbc02.jpg"
+    },
+    {
+      "id": 24,
+      "category": "karate",
+      "productName": "ejemplo2",
+      "desc": "ejemplo2 ejemplo2 ejemplo2",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Shinai_WD_pbbc02.jpg"
+    },
+    {
+      "id": 25,
+      "category": "judo",
+      "productName": "ejemplo2",
+      "desc": "ejemplo2 ejemplo2 ejemplo2",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Shinai_WD_pbbc02.jpg"
+    },
+    {
+      "id": 26,
+      "category": "judo",
+      "productName": "ejemplo2",
+      "desc": "ejemplo2 ejemplo2 ejemplo2",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Shinai_WD_pbbc02.jpg"
+    },
+    {
+      "id": 27,
+      "category": "judo",
+      "productName": "ejemplo2",
+      "desc": "ejemplo2 ejemplo2 ejemplo2",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Shinai_WD_pbbc02.jpg"
+    },
+    {
+      "id": 28,
+      "category": "judo",
+      "productName": "ejemplo2",
+      "desc": "ejemplo2 ejemplo2 ejemplo2",
+      "price": 40,
+      "url": "https://res.cloudinary.com/dfg3nr91y/image/upload/v1678375797/Ikigai/Shinai_WD_pbbc02.jpg"
+    },
+    {
+      "id": 29,
       "category": "judo",
       "productName": "ejemplo2",
       "desc": "ejemplo2 ejemplo2 ejemplo2",

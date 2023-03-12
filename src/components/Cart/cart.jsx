@@ -18,7 +18,7 @@ const Cart = () => {
     {
       cart.map(product => <ItemCart key={product.id} product={product}/>)
     }
-    <p>{totalPrice()}</p>
+    <p>Total: {totalPrice()}€</p>
     </>
   )
 }

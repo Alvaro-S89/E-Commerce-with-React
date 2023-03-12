@@ -1,0 +1,37 @@
+.productsContainer {
+display: flex;
+flex-direction: row;
+/* justify-content: center; */
+align-items: center;
+padding: 5rem 25rem;
+}
+
+.description {
+   padding-left: 2rem;
+}
+
+.description h1 {
+   font-size: 3em;
+}
+
+.description p {
+   font-size: 2em;
+}
+
+.detailCount {
+   border-radius: 1rem;
+}
+
+.imgDetail {
+   width: 30rem;
+   height: 30rem;
+   border: 4px solid black;
+   border-radius: 1rem;
+}
+
+.addToCart {
+text-decoration: none;
+font-size: 1.3em;
+padding-left: 15rem;
+color: #0c0c0c;
+}

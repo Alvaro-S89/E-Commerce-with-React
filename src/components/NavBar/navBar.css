@@ -1,18 +1,29 @@
+.container {
+    display: flex;
+    background-color: #181818;
+    color: #FFFFFF;
+    height: 16rem;
+}
+
+.logo {
+    padding-left: 5rem;
+    margin-top: 3rem;
+    width: 10rem;
+}
+
 .nav_list {
     list-style: none;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    padding-top: 6rem;
+    padding-left: 50rem;
+    
 }
 
 .nav_list a {
     text-decoration: none;
     color: #FFFFFF;
+    font-size: 2em;
+    font-weight: 600;
+    margin-right: 3rem;
 }
 
-
-.container {
-    background-color: #0c0c0c;
-    color: #FFFFFF;
-    height: 14rem;
-}

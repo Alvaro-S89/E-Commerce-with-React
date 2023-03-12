@@ -6,10 +6,12 @@ import { NavLink } from 'react-router-dom'
 export const NavBar = () => {
     return (
     <div className='container'>
-        <nav className='nav'>
             <div className='nav_brand'>
-                <NavLink className='nav_link' to='/'>Home</NavLink>
+                <NavLink className='nav_link' to='/'>
+                    <img className='logo' src="https://res.cloudinary.com/dfg3nr91y/image/upload/v1678630741/Logo_nc1ufn.png" alt="img" />
+                </NavLink>
             </div>
+        <nav className='nav'>
             <ul className='nav_list'>
                 <li>
                     <NavLink className='nav_link' to='/category/dojo' >Todo para tu Dojo</NavLink>

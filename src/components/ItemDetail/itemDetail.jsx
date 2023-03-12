@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { useCartContext } from '../../context/CartContext';
 import ItemCount from '../ItemCount/ItemCount'
 import './ItemDetail.css'
@@ -16,15 +16,18 @@ const ItemDetail = ({data}) => {
 
   return (
     <div className='productsContainer'>
-      <div className='imgDetail'>
-        <img src={data.url} alt="" />
+      <div className='imgDetailContainer'>
+        <img className='imgDetail' src={data.url} alt="" />
       </div>
-      <p>Detalles del producto</p>
+      <div className='description'>
+      <h1>{data.productName}</h1>
+      <p>{data.desc}</p>
       {
         goToCart 
-          ? <Link to='/cart'>Add to cart</Link> 
-          : <ItemCount initial={1} stock={5} onAdd={onAdd}/>
+        ? <NavLink className="addToCart" to='/cart'>Go to cart</NavLink> 
+        : <ItemCount initial={1} stock={10} onAdd={onAdd}/>
       }
+      </div>
     </div>
   )
 }

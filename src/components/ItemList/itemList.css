@@ -1,8 +1,32 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
+.searchBar {
+    display: flex;
+    justify-content: end;
+    background-color: #bc002d;
+    padding: 0.6rem 3rem;
+    padding-top: 3rem;
+}
+
+.bi-search {
+    font-size: 1.2rem;
+    color: #0c0c0c;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+input[type="search"] {
+    background-color: #0c0c0c;
+    padding: 0.6rem 2rem;
+    border: none;
+    border-bottom: 2px solid #737373;
+    border-right: 2px solid #737373;
+    color: #737373;
+}
+
+input[type="search"]:focus, input[type="text"]:active {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #bc002d;
+}
 
 .merchandise {
     padding: 5rem 0;
@@ -13,12 +37,3 @@
     grid-column-gap: 5rem;
     background-color: #bc002d;
 }
-
-/* .ItemList {
-    padding: 5rem 0;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-row-gap: 5rem;
-    justify-content: center;
-    grid-column-gap: 5rem;
-} */
